@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    body {
+      background-color: #e1e1e1;
+    }
+
+    .flag {
+      background-color: #ef2b2d;
+      width: 1100px;
+      height: 800px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .white-part-horizontal {
+      position: absolute;
+      width: 100%;
+      height: 200px;
+      margin-top: 300px;
+      background-color: white;
+    }
+
+    .white-part-vertical {
+      position: absolute;
+      width: 200px;
+      height: 100%;
+      margin-left: 300px;
+      background-color: white;
+    }
+
+    .blue-part-horizontal {
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      margin-top: 350px;
+      background-color: #002868;
+    }
+
+    .blue-part-vertical {
+      position: absolute;
+      width: 100px;
+      height: 100%;
+      margin-left: 350px;
+      background-color: #002868;
+    }
+
+    h1 {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 4rem;
+      color: rgb(0, 0, 0);
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+
+    
+  </style>
+</head>
+
+<body>
+  <h1>The flag of the Kingdom of Norway</h1>
+  <div class="container">
+    <div class="flag">
+      <div class="white-part-horizontal"></div>
+      <div class="white-part-vertical"></div>
+      <div class="blue-part-horizontal"></div>
+      <div class="blue-part-vertical"></div>
+    </div>
+  </div>
+</body>
+
+</html>
